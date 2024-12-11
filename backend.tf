@@ -1,10 +1,10 @@
-terraform { 
-  cloud { 
-    
-    organization = "silverink" 
+terraform {
+  cloud {
 
-    workspaces { 
-      name = "terra-meta" 
-    } 
-  } 
+    organization = "silverink"
+
+    workspaces {
+      name = "terra-meta"
+    }
+  }
 }
